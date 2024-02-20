@@ -1,12 +1,51 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 /* Header */
 /*Header nav*/
 /*body section 1*/
 /*body section 2*/
 /*body section 3*/
 /*body section 4*/
+/* REVIEW: 
+The current usage of selectors is quite questionable in my opinion. If we want an unique styling in the end
+we hit a wall here. This arises the question of logical design. Use the selectors as namespaces? 
+Or consistently use Ids instead of classes?
+ */
+h3.body-section4 {
+    color: blue;
+    font-size: 48pt;
+    padding: 12pt;
+    text-align: center;
+}
+
+img.body-section4 {
+    max-width: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: block;
+}
+
+.h-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.body-section4 { 
+    border: 1pt;
+    color: white;
+    text-align: center;
+    font-size: 36pt;
+    padding:  9pt;
+    margin: 9pt;
+    margin-top: 27pt;
+    background-color: blue;
+}
+
 /*footer*/
